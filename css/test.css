@@ -1,0 +1,30 @@
+.headerBox{
+    background: #7CAFFF;
+    padding-bottom:1%;
+    }
+    
+
+    .menuBar{
+        margin-left:10%;
+        text-align:center;   
+        height: 0;
+        width:100%;
+        margin-bottom:10px;
+    }
+    
+
+    .insert{
+        margin-left:50px;
+        width: 137px;
+        height: 37px;
+        
+        background: #C9CBFF;
+    }
+    
+    .mainDiv{
+        background:#C9CBFF;
+        margin-top:1%;
+    }
+    
+    
+    

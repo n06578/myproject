@@ -1,0 +1,70 @@
+
+/* @font-face {
+    font-family: "nanum";
+    font-weight: 100;
+    font-style: normal;
+    src: url("../style/font/NaverNanumSquareRound/NanumSquareRoundOTFL.otf?") format("eot"),
+    url("../style/font/NaverNanumSquareRound/NanumSquareRoundOTFL.otf") format("opentype"),
+    url("../style/font/NaverNanumSquareRound/NanumSquareRoundOTFL.otf") format("ttf"),
+    url("../style/font/NaverNanumSquareRound/NanumSquareRoundOTFL.otf") format("svg"),
+    url("../style/font/NaverNanumSquareRound/NanumSquareRoundOTFL.otf") format("woff2");
+} */
+
+*{
+    font-family: "nanum";
+}
+
+html{ background-color:rgba(251, 251, 251, 0.889); }
+
+.login img{ width:350px; margin-bottom:10%;}
+label{text-align:center;}
+.hero-body{ width:100%;text-align: center;}
+.login{ width:30%; margin: auto;}
+/*index.php의 비밀번호 찾기 및 회원가입하기*/
+a{ color:#484848; }
+a:hover{ color:#1a1919; }
+
+/* login 버튼 클릭*/
+.button.is-primary{ background-color:#1a1919 ; }
+.button.is-primary:hover{ background-color:#484848 ; }
+
+
+/* model */
+.logoBox{
+    width:100% !important;
+    text-align:center!important;
+}
+
+
+.logoBox img{
+    width:50% !important;
+    text-align:center;
+    margin:10px 10px 50px 15px;
+}
+.r_id{
+    width:80%;
+}
+.check{
+    width:18%;
+}
+.f_check{
+    width:18%;
+}
+.buttonGroup{
+    margin-top:3%;
+    text-align:right;
+}
+
+.buttonGroup button{
+    width:15%;
+}
+.alertBox{
+    width:100%;
+    height:80% !important;
+}
+.alert{width:100%;}
+
+
+.f_id{
+    width:80%;
+}

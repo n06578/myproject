@@ -1,0 +1,12 @@
+.hero.is-info{
+    background-color:#6c757d !important;
+}
+
+.hero.is-info .tabs.is-boxed li.is-active a, .hero.is-info .tabs.is-boxed li.is-active a:hover, .hero.is-info .tabs.is-toggle li.is-active a, .hero.is-info .tabs.is-toggle li.is-active a:hover{
+    background-color: #fff;
+    border-color: #fff;
+}
+.hero.is-info .tabs li.is-active a{
+    background-color: #fff;
+    border-color: #fff;
+    color: #6c757d !important;}
