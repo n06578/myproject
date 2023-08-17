@@ -29,13 +29,13 @@ include $_SERVER['DOCUMENT_ROOT']  . "/setting/header.php";  //상단 메뉴바
 </div>
 <?include $_SERVER['DOCUMENT_ROOT']  . "/setting/footer.php"; // 내용 출력?>
 <script>
-    $(".title0").click(function(){
-        $(".title0").css("width","100%");
-    })
-
+    $(function () {
+        $(".part0").css("width","30%");
+        $(".notification").not($(".part0")).css("width","10%");
+    });
     function widthSize(i){
-        alert("click in");
-        $(".part"+i).css("width","100%");
+        $(".notification").not($(".part"+i)).css("width","10%");
+        $(".part"+i).css("width","30%");
     }
 
 </script>
