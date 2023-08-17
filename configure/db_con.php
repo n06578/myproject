@@ -8,3 +8,4 @@ $dbname='n06578';
 										# 데이타 베이스 이름
 										
 										
+// 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
