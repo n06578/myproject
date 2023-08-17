@@ -4022,8 +4022,8 @@ table.table.is-clickable tbody tr td,table.table.is-hoverable tbody tr td{cursor
 .ml-auto-tablet{margin-left:auto!important}
 .mx-auto-tablet{margin-left:auto!important;margin-right:auto!important}
 .my-auto-tablet{margin-top:auto!important;margin-bottom:auto!important}
-}
-@media screen and (min-width: 641px),print{.p-0-tablet{padding:0!important}
+
+@media screen and (min-width: 641px),print{.p-0-tablet{padding:0!important}}
 .pt-0-tablet{padding-top:0!important}
 .pr-0-tablet{padding-right:0!important}
 .pb-0-tablet{padding-bottom:0!important}
@@ -4033,4 +4033,16 @@ table.table.is-clickable tbody tr td,table.table.is-hoverable tbody tr td{cursor
 .p-1-tablet{padding:.25rem!important}
 .pt-1-tablet{padding-top:.25rem!important}
 .pr-1-tablet{padding-right:.25rem!important}
-.pb-1-t
+
+
+::-webkit-scrollbar {
+width: 5px;
+}
+::-webkit-scrollbar-thumb {
+background-color: #adb5bd;
+border-radius: 10px;
+  }
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 5px white;
+}
