@@ -27,8 +27,6 @@
 
 
 
-
-
 .ng-select.ng-select-opened> .ng-select-container{background:#fff;border-color:#b3b3b3 #ccc #d9d9d9}
 
 .ng-select.ng-select-opened>.ng-select-container:hover{box-shadow:none}
@@ -2856,7 +2854,7 @@ a.has-text-forest-dark:hover,a.has-text-forest-dark:focus{color:#9cad8a!importan
 }
 @media screen and (min-width: 1408px){.is-invisible-fullhd{visibility:hidden!important}
 }
-.hero{align-items:stretch;display:flex;flex-direction:column;justify-content:space-between}
+.hero{align-items:stretch;display:flex;flex-direction:column;justify-content:space-between; background-color:#4c4c4cde;}
 .hero .navbar{background:none}
 .hero .tabs ul{border-bottom:none; margin-bottom:0;}
 .hero.is-white{background-color:#fff;color:#0a0a0a}
@@ -3966,7 +3964,7 @@ table.table.is-clickable tbody tr td,table.table.is-hoverable tbody tr td{cursor
 .nwb-alert .alert.is-dark.is-inverted{background-color:#fff;border:1px solid #363636;color:#363636}
 .nwb-alert .alert.is-link{background-color:#3b72a5}
 .nwb-alert .alert.is-link.is-inverted{background-color:#fff;border:1px solid #3b72a5;color:#3b72a5}
-@media screen and (min-width: 641px),print{.m-0-tablet{margin:0!important}
+/* @media screen and (min-width: 641px),print{.m-0-tablet{margin:0!important} */
 .mt-0-tablet{margin-top:0!important}
 .mr-0-tablet{margin-right:0!important}
 .mb-0-tablet{margin-bottom:0!important}

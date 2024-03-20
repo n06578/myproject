@@ -1,9 +1,7 @@
 <footer class="footer">
-  <div class="content has-text-centered">
+  <div class="has-text-centered">
     <p>
-      <strong>Bulma</strong> by <a href="#">Jeremy Thomas</a>. The source code is licensed
-      <a href="#">MIT</a>. The website content
-      is licensed <a href="#">CC BY NC SA 4.0</a>.
+      <strong>What;s</strong> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos obcaecati reprehenderit quam placeat, dolorem tempora!
     </p>
   </div>
 </footer>

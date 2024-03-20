@@ -3,7 +3,11 @@
 include $_SERVER['DOCUMENT_ROOT']  . "/page/setting.php";  //연결 경로 지정
 include $_SERVER['DOCUMENT_ROOT']  . "/configure/db_con.php"; // db 연결
 $contents = $_REQUEST['contents'];
-$que = "select * from prodInfo where Pcontents='".$contents."'";
+if($contents == "all" ){
+    $que = "select * from prodInfo order by Pcontents asc";
+}else{
+    $que = "select * from prodInfo where Pcontents='".$contents."'";
+}
 $res = mysql_query($que);
 $count = mysql_num_rows($res);
 $i=0;
@@ -18,10 +22,11 @@ while($row= mysql_fetch_array($res)){
                 <p class="title"><?=$row['Pcontents']?></p>
                 <br>
                 <p class="heading">part1</p>
+                <p><?=($i%5)?></p>
             </div>
         </div>
     </div>
-<? if($i!=0 && $i%5==0){
+<? if($i!=0 && $i%5==4){
         echo '</div>';
     }
     $i++;

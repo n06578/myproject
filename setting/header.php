@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html> 
+<title>What's</title>
     <head>
         <meta charset="utf-8"/>
         <link rel="stylesheet" type="text/css" href="<?=$root?>css/header/header.css" />
